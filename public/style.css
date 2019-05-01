@@ -1,0 +1,97 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerBlue;
+}
+
+.main {
+  width: 60vw;
+  background-color: #9ee8ff;
+  font-family: courier;
+  font-size: 18px;
+  color: #5e5e5e;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#title {
+  font-family: courier;
+  font-size: 50px;
+  color: #5e5e5e;
+  padding: 20px;
+}
+
+#subtitle {
+  font-family: courier;
+  font-size: 30px;
+  color: #5e5e5e;
+  padding: 20px;
+}
+
+#story {
+  width: 60vw;
+  background-color: #9ee8ff;
+  font-family: courier;
+  font-size: 18px;
+  color: #5e5e5e;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px
+}
+
+#contact-form {
+  text-align: center;
+}
+
+p{
+  color:#5e5e5e;
+}
+
+input[type=text] {
+  width: 48vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+input[type=submit] {
+  font-family: courier;
+  border: none;
+  background-color: #c4f1ff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px 10px;
+}
+
+input[type=submit]:hover {
+  font-family: courier;
+  border: none;
+  background-color: #91e4ff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px 10px;
+}
+
+input[type=placeholder] {
+  font-family: courier;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 24px;
+  padding: 10px;
+}
+
+a:hover {
+  color: grey;
+}
