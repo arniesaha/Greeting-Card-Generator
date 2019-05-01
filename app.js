@@ -18,5 +18,6 @@ app.post('/', urlencodedParser, function(req, res){
   res.render('story-success', {data: req.body});
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
+//app.listen(3000);
 //HEROKU
