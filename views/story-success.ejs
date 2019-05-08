@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <script src="/tracery.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   </head>
   <body>
 
@@ -14,10 +15,18 @@
 
     <div id="title"> <%= data.intro %>, <%= data.rname %>! </div>
   <div id="subtitle">  You are a great <%= data.rel %>! </div>
-    <div id="story"> </div>
+  <h2> Dear <%= data.rname %>, </h2>
+    <div id="story">
+    </div>
+    <div id="storyPtTwo"></div>
+      <div id="storyEnd"></div>
+
    <script src="/main.js"></script>
 
    <div id="subtitle"> Love, <%= data.yname %> </div>
+
+  <!-- <a href="./">Try Again</a> -->
+  <input type="button" value="Try Again" onClick="location.href=location.href"></input>
 
   </div>
 
