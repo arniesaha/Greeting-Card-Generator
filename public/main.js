@@ -24,7 +24,7 @@ var storyPtTwo = {
 
 var storyEnd = {
   "end": "#endslates#!",
-  "endslates": ["Good Bye", "Farewell", "Peace Out", "Thinking of You", "Sincerely"]
+  "endslates": ["Good Bye", "Farewell", "Peace Out", "Thinking of You", "Bye"]
 }
 
 var grammarOne;
